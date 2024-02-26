@@ -1,0 +1,45 @@
+#root {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header,
+footer {
+  height: 70px;
+  position: absolute;
+  width: 100%;
+}
+
+header {
+  top: 20px;
+}
+footer {
+  bottom: 20px;
+}
+
+main {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.count {
+  font-size: 10em;
+}
+
+.counter-btn {
+  height: 80px;
+  width: 80px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 2em;
+  padding: 10px;
+  font-weight: bolder;
+  color: #fff;
+}
