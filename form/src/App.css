@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(222, 222, 222);
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 1.5em;
+}
+
+form input {
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+}
+
+form button {
+  padding: 5px 15px;
+  border-radius: 8px;
+
+}
+
+.error_message {
+  color: #F00;
+  font-size: 1.5em;
+}
+
+.success_message {
+  color: rgb(12, 118, 0);
+  font-size: 1.5em;
+}
